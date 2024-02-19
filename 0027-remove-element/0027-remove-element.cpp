@@ -19,11 +19,9 @@ public:
                     j--;
                 }
             }
-            // else ans++;
+            
         }
-        // for(auto x: nums){
-        //     cout<<x<<" ";
-        // }
+        
         return j+1;
     }
 };
