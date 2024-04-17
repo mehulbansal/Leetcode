@@ -27,7 +27,6 @@ public:
         
         
         solve(root->left, path, ans);
-        
         solve(root->right, path, ans);
         path.pop_back();
         
