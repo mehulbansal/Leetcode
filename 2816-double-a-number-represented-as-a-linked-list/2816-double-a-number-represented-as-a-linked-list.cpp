@@ -45,15 +45,6 @@ public:
             ans.pop();
         }
         return finalans->next;
-        // ListNode* ans = new ListNode();
-        // ListNode* finalans = ans;
-        // num = 2*num;
-        // string str = to_string(num);
-        // for(auto x:str){
-        //     ListNode* node = new ListNode(x-'0');
-        //     ans->next = node;
-        //     ans = ans->next;
-        // }
-        // return finalans->next;
+        
     }
 };
